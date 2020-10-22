@@ -1,0 +1,19 @@
+.main-display {
+  height: 100vh;
+}
+
+.list {
+  height: 600px;
+  width: 300px;
+  background: lightgray;
+  position: relative;
+}
+
+.list:after {
+  content: "";
+  width: 60px;
+  height: 4px;
+  background: gray;
+  position: absolute;
+  bottom: -4px;
+}
